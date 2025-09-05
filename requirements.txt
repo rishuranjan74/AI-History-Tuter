@@ -1,0 +1,34 @@
+# 🖥️ User Interface
+streamlit>=1.28.0
+
+# 🧠 Core AI & LangChain Framework
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+google-generativeai>=0.3.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0
+
+# 📄 Data Processing & Extraction
+PyMuPDF                     # For robust PDF text and image extraction
+pdfplumber                  # For table extraction from PDFs
+pytesseract                 # For reading text from images (OCR)
+Pillow                      # For handling image data
+numexpr                     # Required dependency for the Calculator tool
+
+# 🛠️ Web & API Tools for the Agent
+brave-search                # For the Brave Search API tool
+wikipedia                   # For the Wikipedia search tool
+
+# 🧪 Development & Experimentation
+jupyter
+ipykernel
+langgraph                   # For building agentic state machines (discussed)
+langchain_experimental      # For experimental features like SemanticChunker (discussed)
+
+# ⚙️ Core Dependencies & Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+requests>=2.31.0
+tqdm                        # For progress bars during long processes
